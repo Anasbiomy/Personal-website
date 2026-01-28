@@ -1,6 +1,6 @@
-# Frontend Mentor Challenge – Responsive Design Project
+# Frontend Challenge – Responsive Design Project
 
-This is a solution to a Frontend challenge. Frontend Mentor challenges help developers improve their frontend skills by building realistic projects using modern web technologies.
+This is a solution to a Frontend challenge and this is my first front end project.
 
 ## 📸 Screenshot
 
@@ -22,7 +22,7 @@ This is a solution to a Frontend challenge. Frontend Mentor challenges help deve
 
 ## 📐 Responsive Design
 
-The layout was built using a **mobile-first approach** and adapts seamlessly across different screen sizes, including mobile, tablet, and desktop.  
+The layout was built using a **Desktop-first approach** and adapts seamlessly across different screen sizes, including mobile, tablet, and desktop.  
 Flexbox and CSS Grid were combined to create a flexible and maintainable layout.
 
 ## 📚 What I Learned
