@@ -8,8 +8,8 @@ This is a solution to a Frontend challenge and this is my first front end projec
 
 ## 🔗 Links
 
-- linkeden URL: [https://www.frontendmentor.io/solutions/your-solution-link](https://www.linkedin.com/in/anas-bayoumi-638474287/?locale=en_US)
-- Live Site URL: [https://your-live-site-link.com](https://anasbiomy.github.io/personal-weblite)
+- linkeden URL: (https://www.linkedin.com/in/anas-bayoumi-638474287/?locale=en_US)
+- Live Site URL: (https://anasbiomy.github.io/Personal-website/)
 
 ## 🛠 Technologies Used
 
