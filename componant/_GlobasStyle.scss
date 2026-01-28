@@ -1,0 +1,71 @@
+/* Stars Globas Style */
+@import "./mixins";
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-family-raleway);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.container {
+  max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+  display: grid;
+  row-gap: 11rem;
+  align-content: start;
+}
+.video-loop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* لضمان التمركز التام */
+  transform: translate(-50%, -50%);
+
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+  /* السر هنا: يمنع التمدد ويحافظ على النسبة */
+  object-fit: cover;
+
+  opacity: 0.08;
+  z-index: -1;
+  pointer-events: none; /* لمنع الفيديو من اعتراض النقرات على الروابط */
+}
+.h2-hedding {
+  font-size: var(--font-size-65);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  grid-column: 1/-1;
+  margin-bottom: 8.7rem;
+}
+.h3-heading {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2.5rem;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  position: relative;
+}
+.section-with-bg {
+  padding: 10rem 0;
+}
+/* modefire */
+.section-with-bg::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-grey);
+  justify-self: center;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* End Global Style */

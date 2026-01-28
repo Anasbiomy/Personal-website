@@ -1,0 +1,53 @@
+@import "./mixins";
+
+.projects {
+  column-gap: 7.4rem;
+  /* row-gap: 7rem; */
+}
+.projects-hedding {
+  margin-top: 5rem;
+}
+.projects__main {
+  @include tow_coulumns(7.4rem, 9rem);
+  grid-column: 1 / -1;
+  display: grid;
+}
+
+.project__data {
+  justify-self: center;
+  align-self: center;
+}
+
+.project__description-text {
+  font-size: var(--font-size-20);
+  line-height: 1.5;
+}
+.project__links {
+  display: flex;
+  gap: 1rem;
+}
+.project__description-link {
+  color: var(--color-dark-blue);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-medium);
+  margin-top: 2.3rem;
+}
+.project__image img {
+  justify-self: start;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.2);
+  width: 60rem;
+  max-width: 100%;
+}
+.project__description-link::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(photos/external-icon.png);
+  background-size: contain;
+  margin-left: 0.5rem;
+  max-width: 100%;
+}
+
+/* End projects */
